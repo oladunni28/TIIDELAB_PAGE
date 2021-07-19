@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIIDELAB SIGN UP FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+<h3>Pro cleaners</h3>
+         <div class="container">
+            <div class="ad"><h1>Vancouver's Best Home Cleaners</h1>
+            <p>
+            Pro cleaning is Vancouver's best cleaning service. For the<br>
+            quality maid service vancouver relies on,book one of our 
+            <br>experienced,background-checked professionals to have your<br>home clean in no time.</p></div>
+
+               <form action="" name="signupform" id="signupform">
+                  <div class="content"><h2>Request Info & Booking</h2>
+                   <p>Fill this form and we'll contact you as soon as we can.</p></div>
+                <input type="text" name="yourname" id="yourname" placeholder="Your Name" required><br>
+                <input type="email" name="email" id="email" placeholder="Your Email" required><br>
+                <input type="text" name="number" id="number" placeholder="Your Phone" required><br>
+               <button>Request info & Booking</button>
+                </form>
+            </div>
+            </section>
+<br>
+
+    <section>
+
+        <div class="container1">
+            <div>
+                <i class="fas fa-user-circle"></i>
+           <h3>Trusted Professional</h3>
+            <p>Our professionals are experienced,<br>friendly,and background-checked.</p>
+        </div>
+
+        <div> 
+            <i class="far fa-calendar-alt"></i>
+            <h3>Available Everyday</h3>
+            <p> we're available to serve you 7 days per week.<br>We'll work around your schedule.</p>
+        </div>
+
+        <div>
+            <i class="fas fa-dollar-sign"></i>
+            <h3>100% Money-Back Guarentee</h3>
+            <p>If you're not satisfied,we'll refund all of<br> your money.it's as simple as that</p>
+        </div>
+        </div>
+    </section>
+
+    <section> 
+        <div class="container2">
+        <div>
+            <h4>What Our Clients Say</h4>
+<img src="man1.jpg" alt="hpp">
+<p><em>Paulo Parra</em></p>
+<p><em>The team was fast and friendly-honestly<br>my house hasn't been this clean in years!</em></p>
+<p class="star">*****</p>
+</div>
+
+<div>
+        <img src="hii.jpg" alt="hii">
+        <p><em>Ana Carolina</em></p>
+        <p><em>It feels so great walking in to a fresh,<br>clean apartment every day.These guys <br>make my place spotless!</em></p>
+        <p class="star">*****</p>
+</div>
+</div>
+    </section>
+
+
+    <div class="footer">@Copyright. All Right Reserved</footer></div>
+    <script>
+function processForm(){
+    yourname = document.getElementById('yourname').value
+    email = document.getElementById('email').value
+    text = document.getElementById('number').value
+
+    var data ={
+        "yourname":yourname,
+        "email":email,
+        "number":number,
+
+    }
+alert( FormData.get('yourname')+ '-'+ FormData.get('email')+'-'+ FormData.get(number));
+}
+
+    </script>
+    </body>
+</html>
